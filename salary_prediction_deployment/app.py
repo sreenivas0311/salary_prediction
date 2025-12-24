@@ -5,7 +5,7 @@ import pandas as pd
 # -----------------------------
 # Load trained model
 # -----------------------------
-model = joblib.load('salary_prediction_model.joblib')
+model = joblib.load('salary_prediction_deployment/salary_prediction_model.joblib')
 
 st.set_page_config(
     page_title="Salary Predictor",
@@ -190,3 +190,4 @@ if st.button("🔮 Predict Salary", use_container_width=True):
     st.caption("Typical prediction error: ±20–25k")
 
 st.divider()
+

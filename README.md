@@ -20,14 +20,23 @@ This project builds a realistic, leakage-free salary prediction model and deploy
 🗂️ Project Structure
 glassdoor-salary-prediction/
 │
+
 ├── notebooks/
+
 │   └── salary_model_training.ipynb   # Data cleaning, EDA, modeling
+
 │
+
 ├── deployment/
-│   ├── app.py                        # Streamlit web app
+
+│   ├── app.py      
+                  # Streamlit web app
 │   └── salary_prediction_model.joblib
+
 │
+
 ├── requirements.txt
+
 ├── README.md
 
 📊 Dataset
